@@ -1,0 +1,5 @@
+---
+applications:
+- name: sample-python-helloworld
+  random-route: true
+  memory: 128M

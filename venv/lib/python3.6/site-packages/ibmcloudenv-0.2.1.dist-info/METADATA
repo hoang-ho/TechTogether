@@ -1,0 +1,21 @@
+Metadata-Version: 2.0
+Name: ibmcloudenv
+Version: 0.2.1
+Summary: Abstraction layer for CF and Kube env variables
+Home-page: https://github.ibm.com/arf/IBM-Cloud-Env
+Author: ibm-cloud-tools
+Author-email: nodeauto@us.ibm.com
+License: Apache-2.0
+Keywords: ibm,cloud,cloud foundry,environment variable,kubernetes
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Requires-Dist: jsonpath-rw
+
+UNKNOWN
+
+

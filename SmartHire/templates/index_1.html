@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>SmartHire</title>
+
+  <!-- Font Awesome Icons -->
+  <link href="{{ url_for('static', filename='all.min.css') }}" rel="stylesheet" type="text/css">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet">
+  <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic' rel='stylesheet' type='text/css'>
+  <link href="https://fonts.googleapis.com/css?family=Bitter" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
+  <!-- Plugin CSS -->
+  <link href="{{ url_for('static', filename='magnific-popup.css') }}" rel="stylesheet">
+
+  <!-- Theme CSS - Includes Bootstrap -->
+  <link href="{{ url_for('static', filename='creative.css') }}" rel="stylesheet">
+
+</head>
+
+<body id="page-top">
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">SmartHire</a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto my-2 my-lg-0">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#portfolio">Product</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#login">Login</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#demo">Demo</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Masthead -->
+  <header class="masthead" style = "padding-top: 10rem;
+  padding-bottom: calc(10rem - 72px);
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(92, 77, 66, 0.8)), to(rgba(92, 77, 66, 0.8))), url('../static/img/bg-masthead.jpg');
+  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url('../static/img/bg-masthead.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;">
+    <div class="container h-100">
+      <div class="row h-100 align-items-center justify-content-center text-center">
+        <div class="col-lg-10 align-self-end">
+          <h1 class="text-white font-weight-bold">SmartHire</h1>
+          <hr class="divider my-4">
+        </div>
+        <div class="col-lg-8 align-self-baseline">
+          <p class="text-white-75 font-weight-light mb-5">Recruitment powered by AI</p>
+          <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Get Started</a> <a class="btn btn-primary btn-xl js-scroll-trigger" href="log-in/index.html" style = "padding: 20px 60px 20px 60px;">Login</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section class="page-section bg-primary" id="about">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-8 text-center">
+          <h2 class="text-white mt-0">Recruitment decisions you can trust</h2>
+          <hr class="divider light my-4">
+          <p class="text-white-75 mb-4">SmartHire is an automated recruitment platform that uses the power of AI to help hiring managers make fair, unbiased hiring decisions. It screens and analyzes hiring documents to make recommendations about the top candidates to consider from a pool of applicants, <br><b>saving HR's time and resources.</b> </p>
+          <a class="btn btn-light btn-xl js-scroll-trigger" href="sign-up/index.html">Sign up!</a>
+        </div>
+      </div>
+    </div>
+  </section>
+    <!-- About Section -->
+  <section class="page-section bg-primary" id="about" style = "background-color: #0c3d6b !important;">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-8 text-center">
+          <h2 class="text-white mt-0" align = "left">ar·ti·fi·cial in·tel·li·gence</h2>
+          <p class="text-white mb-4" align = "left">/ˌärdəˈfiSHəl inˈteləjəns/</p>
+          <p class="text-white mb-4" align = "left"><i>noun</i></p>
+          <p class="text-white mb-4" align = "left" style = "margin-left: 30px;">the theory and development of computer systems able to perform tasks that normally require human intelligence, such as visual perception, speech recognition, decision-making, and translation between languages.</p>
+           <h2 class="text-white mt-0" align = "left">ar·ti·fi·cial in·tel·li·gence <b>bi·as</b></h2>
+          <p class="text-white mb-4" align = "left">/ˌärdəˈfiSHəl inˈteləjəns ˈī ˈbīəs/</p>
+          <p class="text-white mb-4" align = "left"><i>noun</i></p>
+          <p class="text-white mb-4" align = "left" style = "margin-left: 30px;">a phenomenon that occurs when algorithms produce results that are systematically prejudiced due to erroneous data. AI systems are only as good as the data we put into them. Bad data can contain racial, gender, or ideological biases. AI systems will continue to be trained using bad data, making this an ongoing problem that affects many fields, including military, law enforcement, and HR.</p>
+          <h2 class="text-white mt-0" align = "center" ><b> We believe that AI bias can be tamed and that systems tackling bias will be the most successful.</b></h2>
+
+
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Services Section -->
+  <section class="page-section" id="services">
+    <div class="container">
+      <h2 class="text-center mt-0">Bias in HR</h2>
+      <hr class="divider my-4">
+      <div class="row">
+        <div class="col-lg-3 col-md-6 text-center">
+          <div class="mt-5">
+          
+            <i class="fas fa-4x fa-venus  mb-4" aria-hidden="true" style = "color: #1c66ab;"></i>
+            <h3 class="h4 mb-2">Gender Inequality</h3>
+            <p class="text-muted mb-0">Women are more likely to see discrimination in hiring. Only 24 Fortune 500 CEOs are women</p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 text-center">
+          <div class="mt-5">
+            <i class="fas fa-4x fa-user-alt-slash text-primary mb-4"></i>
+            <h3 class="h4 mb-2">Racial Profiling</h3>
+            <p class="text-muted mb-0">Racial and ethnic discrimination in hiring has not declined in 30 years</p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 text-center">
+          <div class="mt-5">
+            <i class="fas fa-4x fa-laptop-code text-primary mb-4"></i>
+            <h3 class="h4 mb-2">AI Bias</h3>
+            <p class="text-muted mb-0">AI systems trained on bad data containing implicit biases reinforce discrimination in hiring</p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 text-center">
+          <div class="mt-5">
+            <i class="fas fa-4x fa-globe text-primary mb-4"></i>
+            <h3 class="h4 mb-2">Workplace Diversity</h3>
+            <p class="text-muted mb-0">Companies with more diversity in senior management outperform industry norms by 35%</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio Section -->
+  <section id="portfolio">
+    <div class="container-fluid p-0">
+      <div class="row no-gutters">
+        <div class="col-lg-4 col-sm-6">
+          <a class="portfolio-box" href="{{ url_for('static', filename='img/fullsize/1.jpg') }}">
+            <img class="img-fluid" src="{{ url_for('static', filename='img/thumbnails/1.jpg') }}" alt="">
+            <div class="portfolio-box-caption">
+              <div class="project-category text-white-50">
+                Features
+              </div>
+              <div class="project-name">
+                Resume Screening
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+          <a class="portfolio-box" href="{{ url_for('static', filename = 'img/fullsize/2.jpg') }}">
+            <img class="img-fluid" src="{{ url_for('static', filename='img/thumbnails/2.jpg') }}" alt="">
+            <div class="portfolio-box-caption">
+              <div class="project-category text-white-50">
+                Features
+              </div>
+              <div class="project-name">
+                Cover Letter Screening
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+          <a class="portfolio-box" href="{{ url_for('static', filename = 'img/fullsize/3.jpg') }}">
+            <img class="img-fluid" src="{{ url_for('static', filename='img/thumbnails/3.jpg') }}" alt="">
+            <div class="portfolio-box-caption">
+              <div class="project-category text-white-50">
+                Coming Soon
+              </div>
+              <div class="project-name">
+                Video Interview Assessment
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+          <a class="portfolio-box" href="{{ url_for('static', filename = 'img/fullsize/4.jpg') }}">
+            <img class="img-fluid" src="{{ url_for('static', filename='img/thumbnails/4.jpg') }}" alt="">
+            <div class="portfolio-box-caption">
+              <div class="project-category text-white-50">
+                Coming Soon
+              </div>
+              <div class="project-name">
+                Connect to LinkedIn
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+          <a class="portfolio-box" href="{{ url_for('static', filename = 'img/fullsize/5.jpg') }}">
+            <img class="img-fluid" src="{{ url_for('static', filename='img/thumbnails/5.jpg') }}" alt="">
+            <div class="portfolio-box-caption">
+              <div class="project-category text-white-50">
+                Coming Soon
+              </div>
+              <div class="project-name">
+                External Site Scraping
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+          <a class="portfolio-box" href="{{ url_for('static', filename = 'img/fullsize/6.jpg') }}">
+            <img class="img-fluid" src="{{ url_for('static', filename='img/thumbnails/6.jpg') }}" alt="">
+            <div class="portfolio-box-caption p-3">
+              <div class="project-category text-white-50">
+                Coming Soon
+              </div>
+              <div class="project-name">
+                Police Check
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Call to Action Section -->
+  <section class="page-section bg-dark text-white" id = "login">
+    <div class="container text-center">
+      <h2 class="mb-4">Already have an account?</h2>
+      <a class="btn btn-light btn-xl" href="log-in/index.html">Login</a>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="page-section" id="contact">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-8 text-center">
+          <h2 class="mt-0">Contact us</h2>
+          <hr class="divider my-4">
+          <p class="text-muted mb-5">If you have any further questions or concerns, please reach out through phone or email.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 ml-auto text-center">
+          <i class="fas fa-phone fa-3x mb-3 text-muted"></i>
+          <div>+1 (647) 341-3455</div>
+        </div>
+        <div class="col-lg-4 mr-auto text-center">
+          <i class="fas fa-envelope fa-3x mb-3 text-muted"></i>
+          <!-- Make sure to change the email address in anchor text AND the link below! -->
+          <a class="d-block" href="mailto:marssemenova@gmail.com">contact@smarthire.com</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="page-section bg-primary" id="demo" style = "padding-top: 150px; padding-bottom: 150px;">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-8 text-center">
+          <a class="btn btn-light btn-xl js-scroll-trigger" href="sign-up/index.html">Request demo</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Footer -->
+  <footer class="bg-light py-5">
+    <div class="container">
+      <div class="small text-center text-muted">Copyright &copy; 2019 - SmartHire</div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="{{ url_for('static', filename='script/js/jquery.min.js') }} "></script>
+  <script src="{{ url_for('static', filename='script/vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="{{ url_for('static', filename='script/vendor/jquery-easing/jquery.easing.min.js') }} "></script>
+  <script src="{{ url_for('static', filename='vendor/magnific-popup/jquery.magnific-popup.min.js') }} "></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="{{ url_for('static', filename='script/js/creative.min.js') }}"></script>
+
+</body>
+
+</html>
