@@ -1,5 +1,5 @@
 # SmartHire
-##### A project for TechTogetherBoston2019 ##
+##### A project for TechTogetherBoston2019 ([Devpost](https://devpost.com/software/techtogether-1d37zi)) ##
 
 ### Motivation
 Women and people of color are more likely to see discrimination in the hiring process. There is a lack of diversity in the senior leadership of many companies. AI systems used to automate recruiting can also contain AI bias if the system is trained on bad data that contains implicit biases and excludes certain groups of people, making the AI's decisions untrustworthy. As such, we wanted to make an automated system that is unbiased and fair for everybody.
@@ -29,3 +29,12 @@ Implementing data pipeline
 Using IBM AIF360 library for making the result less biased
 Initial struggles with GitHub and Wi-Fi
 
+### Contributers
+[Hikari](https://github.com/hikarimn),  [Hoang](https://github.com/hoang-ho), [Jaya](https://github.com/jayaguptaON),  [Marina](https://github.com/marinasemen0va),  [Neha](https://github.com/nehap86) (alphabetical order)
+
+### Awards
+1st Place - IBM Research Award - Trusted AI: Making AI Safer and More Fair</br>
+1st Place - Liberty Mutual - Gender Equality Hack
+</br>
+
+![SmartHire](https://user-images.githubusercontent.com/37006149/57597059-4f7e0c80-7513-11e9-91eb-f5f59c4f9118.jpg)
